@@ -8,14 +8,14 @@ class MorseDecoder
     '--..' => 'Z', '-----' => '0', '.----' => '1', '..---' => '2', '...--' => '3',
     '....-' => '4', '.....' => '5', '-....' => '6', '--...' => '7', '---..' => '8',
     '----.' => '9'
-  }
+  }.freeze
 
   def self.decode_char(morse_char)
     MORSE_DICT[morse_char] || ''
   end
 
   def self.decode_word(morse_word)
-    morse_word.split(' ').map { |char| decode_char(char) }.join('')
+    morse_word.split.map { |char| decode_char(char) }.join
   end
 
   def self.decode_message(morse_message)
