@@ -24,7 +24,7 @@ In Ruby, decode Morse code by mapping symbols to letters/numbers, split input in
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<details>
+
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
@@ -40,7 +40,7 @@ In Ruby, decode Morse code by mapping symbols to letters/numbers, split input in
 
 ### Key Features <a name="key-features"></a>
 
-- 
+- Decode Morse More
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
